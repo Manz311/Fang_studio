@@ -1,0 +1,330 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;1,400;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+.contain{
+    width: 100%;
+   height: auto;
+   
+    
+}
+
+               /* _______________ home styling ______________________  */
+.home{
+    height: 100vh;
+   
+    width: 100%;
+}
+.homepage{
+   background-image: url(media/Artboard\ 1.jpg);
+   background-size: cover;
+   background-position:center;
+   height: 100vh;
+   
+   
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    height:auto;
+    background-color:  #000000;
+    position: fixed;
+    transition: 0.9s ease-in-out ;
+    z-index:10 ;
+    
+    
+    
+}
+.menu_box{
+    list-style: none;
+    margin:15px 10px;
+    font-size: 20px; 
+    display: none;
+    transform: translate(50%,1%);
+}
+/* __________sticky function__________________ */
+#navbar.sticky{
+    background-color: #4E4FEB;
+   
+    padding:1px  0px;
+  
+}
+
+
+   
+  
+
+
+.logo img{
+    width: 96px;
+    
+}
+.options ul{
+    display: flex;
+    margin: 10px 1px;
+    padding: 0px 1px;
+ 
+    
+}
+.options ul li{
+   padding: 10px;
+    list-style: none;
+}
+.options ul li a{
+    text-decoration: none;
+    color:#EEEEEE ;
+    font-family: 'Fira Sans Condensed', sans-serif; 
+    font-weight: 100;
+    font-size: 16px;
+   
+}
+.options ul li a:hover{
+    color: #eeeeee95  ;
+}
+ 
+
+
+             /* ------------ Services section styling ------------------  */
+
+
+
+
+.headab{
+    text-align: center;
+    padding: 10px 0px;
+    color: #EEEEEE;
+    font-family:'Fira Sans Condensed', sans-serif ;
+    font-size: 10px;
+    font-weight: 100;
+    letter-spacing: 0.1cm;
+     
+}
+
+
+
+
+.abcontain{
+    width: 70%;
+    height: 80%;
+    background-color: #EEEEEE;
+    margin: auto;
+    bottom: 10px;
+    display: flex;
+    
+    border-radius: 12px;
+   
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             /* _________________course styling _______________ */
+.courses{
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-image:url(media/course-background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+} 
+ 
+.pic{
+    transform: translate(60%,30%);
+    position: absolute;
+
+}
+.pic img{
+    width: 30%;
+   
+}
+.button1 {
+    transform: translate(65%,30%);
+    position: absolute;
+}
+ .button1 button{
+    background-color: #4E4FEB;
+    font: menu;
+    color: #EEEEEE;
+    font-size: 20px;
+    border: none;
+    box-shadow: none;
+    border-radius: 24px;
+    padding: 4px 8px;
+    position: absolute;
+    position: absolute;
+
+}
+.texts{
+    margin: 10%;
+    color: #EEEEEE;
+
+}
+
+.texts h1{
+    font-size: 29px;
+    font-family:'Fira Sans Condensed', sans-serif ;
+    margin:auto;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.texts h2{
+    font-size: 19px;
+    font-family:'Fira Sans Condensed', sans-serif;
+    font-weight:100 ;
+    margin: auto;
+    padding: 10px ;
+}
+.btn{
+    width: 120px;
+    height: auto;
+    background-color: #EEEEEE;
+    padding: 10px;
+    margin:-60px 190px; 
+    text-align: center;
+
+   
+}
+.btn a{
+    text-decoration: none;
+    color: #4E4FEB;
+    font-family:'Fira Sans Condensed', sans-serif;
+    font-size: 16px;
+}
+
+
+
+
+ /* ________________________ About section styling _____________  */
+
+
+.about{
+    width: 100%;
+    height: 100vh;
+    background-color: #4E4FEB;
+    display: block;
+ }
+.rectangle-abt{
+    width: 60%;
+    height: 70%;
+    background-color: #EEEEEE;
+    margin: auto;
+    position: relative;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    bottom: 0px;
+ }
+ .text-abt{
+    bottom: 90px;
+    position: absolute;
+ }
+.rectangle-abt .text-abt h1{
+    font-size: 28px;
+    font-family:'Fira Sans Condensed', sans-serif;
+  
+ }
+ .text-abt p{
+    font-size: 15px;
+    font-family:'Fira Sans Condensed', sans-serif;
+   
+   
+ }
+
+         /* ------------------contact style starts -------------  */
+
+
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-color: #4E4FEB;
+    position: relative;
+   
+
+}
+.ctn-contain{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+.img-ctt img{
+    width:400px;
+    height: auto;
+    
+    
+}
+.ctt-text h1, .ctt-text h2{
+    color: #EEEEEE;
+    font-family:'Fira Sans Condensed', sans-serif;
+   
+    font-weight: 100;
+  
+}
+
+.ctt-text h1{
+    font-size: 28px;
+    font-weight: 400;
+    
+
+}
+.ctt-text h2{
+    font-size: 19px;
+    font-weight:100;
+}
+
+
+                    /* <<<< mobile scale media response >>>> */
+
+
+@media (max-width:860px) {
+
+    .menu_box{
+        display: block;
+    }
+    .options ul{
+        display: none;
+
+    }
+
+
+    
+    
+}
+
+
+
+
+
